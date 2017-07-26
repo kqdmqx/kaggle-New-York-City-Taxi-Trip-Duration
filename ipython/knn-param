@@ -1,0 +1,660 @@
+knn_test = norm.transform(test[feature_names])
+
+feature_weight = {
+ 'direction': 5., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'distance_haversine': 8., 
+ 'distance_dummy_manhattan': 8., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+
+ rmse 0.269064261873
+
+ feature_weight = {
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'distance_haversine': 8., 
+ 'distance_dummy_manhattan': 8., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+
+ rmse 0.259702114939
+
+ feature_weight = {
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'distance_haversine': 10., 
+ 'distance_dummy_manhattan': 8., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+rmse 0.254785918098
+
+feature_weight = {
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'distance_haversine': 15., 
+ 'distance_dummy_manhattan': 8., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.244768928201
+
+
+ feature_weight = {
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'distance_haversine': 15., 
+ 'distance_dummy_manhattan': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.239740458902
+
+
+feature_weight = {
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'distance_haversine': 15., 
+ 'distance_dummy_manhattan': 15., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.236666466949
+
+ feature_weight = {
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'distance_haversine': 18., 
+ 'distance_dummy_manhattan': 15., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.234907522242
+
+ from sklearn.preprocessing import Normalizer
+from sklearn.neighbors import KNeighborsRegressor
+
+norm = Normalizer()
+knn_train = norm.fit_transform(train[feature_names])
+knn_test = norm.transform(test[feature_names])
+
+feature_weight = {
+ 'distance_haversine': 20., 
+ 'distance_dummy_manhattan': 15., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+
+for key in feature_weight:
+    val = feature_weight[key]
+    if val != 1.:
+        print key, val
+        idx = feature_names.index(key)
+        knn_train[:,idx] *= val
+        knn_test[:,idx] *= val
+
+Xtr, Xv, ytr, yv = train_test_split(knn_train, y, test_size=0.2, random_state=1987)
+
+knn = KNeighborsRegressor(n_neighbors=10, weights='distance', n_jobs=-1)
+knn.fit(Xtr, ytr)
+yv_pred = knn.predict(Xv)
+
+print 'rmse', mean_squared_error(yv, yv_pred)
+rmse 0.233910640786
+
+feature_weight = {
+ 'distance_haversine': 25., 
+ 'distance_dummy_manhattan': 15., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+rmse 0.231505177452
+
+
+feature_weight = {
+ 'distance_haversine': 25., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+rmse 0.230026264012
+
+feature_weight = {
+ 'distance_haversine': 30., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.228837540289
+
+ feature_weight = {
+ 'distance_haversine': 35., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.227786093411
+
+
+feature_weight = {
+ 'distance_haversine': 40., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.227021291516
+
+ feature_weight = {
+ 'distance_haversine': 45., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.226378010993
+
+
+ feature_weight = {
+ 'distance_haversine': 50., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+
+ rmse 0.225849419024
+
+
+ feature_weight = {
+ 'distance_haversine': 60., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.225031942532
+
+ feature_weight = {
+ 'distance_haversine': 80., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.223811493089
+
+ feature_weight = {
+ 'distance_haversine': 100., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 12., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.2237041711
+
+
+feature_weight = {
+ 'distance_haversine': 100., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 8., 
+ 'pickup_pca1': 20., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.223661995783
+
+ feature_weight = {
+ 'distance_haversine': 115., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 3., 
+ 'pickup_pca0': 25., 
+ 'pickup_pca1': 30., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+ }
+ rmse 0.223449354268
+
+ feature_weight = {
+ 'distance_haversine': 115., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 2., 
+ 'pickup_pca0': 25., 
+ 'pickup_pca1': 30., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 8., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+}
+rmse 0.222903622552
+
+feature_weight = {
+ 'distance_haversine': 115., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 2., 
+ 'pickup_pca0': 25., 
+ 'pickup_pca1': 30., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 10., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+}
+rmse 0.221596984916
+
+feature_weight = {
+ 'distance_haversine': 115., 
+ 'distance_dummy_manhattan': 20., 
+ 'direction': 2., 
+ 'pickup_pca0': 25., 
+ 'pickup_pca1': 30., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 15., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+}
+
+rmse 0.22010765801
+
+feature_weight = {
+ 'distance_haversine': 115., 
+ 'distance_dummy_manhattan': 50., 
+ 'direction': 2., 
+ 'pickup_pca0': 25., 
+ 'pickup_pca1': 30., 
+ 'dropoff_pca0': 8., 
+ 'dropoff_pca1': 12., 
+ 'pickup_week_hour': 2., 
+ 'pickup_hour': 15., 
+ 'pickup_longitude': 2., 
+ 'pickup_latitude': 2., 
+ 'dropoff_longitude': 2., 
+ 'dropoff_latitude': 2., 
+ 'pca_manhattan': 1., 
+ 'center_latitude': 1., 
+ 'center_longitude': 1., 
+ 'pickup_weekday': .5, 
+ 'pickup_hour_weekofyear': 1., 
+ 'pickup_minute': 1., 
+ 'pickup_dt': 1.,
+ 'store_and_fwd_flag': .5,
+ 'passenger_count': .5, 
+}
+
+rmse 0.210805204159
